@@ -7,3 +7,7 @@ votes = ["Mickey", "Donald", "Goofy", "Mickey", "Goofy", "Mickey", "Donald", "Go
 counts = Counter(votes)
 
 print(counts)
+
+# top 2 winners
+
+print(counts.most_common(2))
